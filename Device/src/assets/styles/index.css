@@ -1,0 +1,275 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 64px;
+  width: 488px;
+  height: 488px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+}
+
+.SetupHeight {
+  height: 140vh;
+}
+.custom-sider {
+  background-color: #ffffff !important;
+}
+.custom {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8767e1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.passInput {
+  gap: 8px;
+  border: 1px solid #cbcbcb;
+  border-radius: 8px;
+  width: 519px;
+  height: 56px;
+  background: #ffffff;
+}
+.changetext {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #939393;
+  padding-top: 15px;
+}
+.ViewUser {
+  margin-top: 20px;
+
+  border-radius: 10px;
+  background-color: white;
+}
+.set {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.SetupUser {
+  width: 100%;
+  justify-content: space-around;
+  padding: 50px 20px 50px 20px;
+}
+.setupimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.NameM {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #111111;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+.RoleM {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #cbcbcb;
+}
+.LB {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #939393;
+}
+.IF {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.ButtonUpdate {
+  margin: 20px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #dde4ee;
+}
+
+.change {
+  width: 567px;
+  height: 520px;
+  margin: 0 auto;
+  background-color: white;
+  align-items: center;
+  float: left;
+  margin: auto;
+  display: flex;
+  padding: 24px;
+  gap: 32px;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.change .ant-form-item-control-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.change form {
+  width: 100%;
+}
+
+.change .ant-form-item-label {
+  width: 50%;
+}
+
+.change .ant-btn-primary {
+  margin-right: 8px;
+}
+
+.change form input {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #cbcbcb;
+  border-radius: 8px;
+}
+.tittle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #111111;
+}
+.ViewUser1 {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.SetupUser1 {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.MP {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #111111;
+}
+.ViewUser1 {
+  margin-top: 20px;
+
+  border-radius: 10px;
+}
+.setup {
+  float: right;
+  width: 40%;
+}
+.upload-container {
+  position: relative;
+  display: inline-block;
+}
+
+.upload-container input[type='file'] {
+  display: none;
+}
+
+.upload-container img {
+  position: relative;
+}
+
+.upload-container .image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.blurred-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  opacity: 0.7;
+}
+.upload-container {
+  position: relative;
+}
+
+.camera-icon,
+.delete-icon {
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+}
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.button-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-wrapper::before {
+  content: '';
+  position: absolute;
+  border-radius: 150px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu sắc và độ đậm của hiệu ứng tối */
+  z-index: 2;
+}
+.ant-select-selector {
+  height: 56px !important;
+  padding-left: 10px;
+}
+.ant-select-selection-item {
+  padding-top: 11px !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f3a4c;
+}
+.ant-table-cell {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #111111;
+}
